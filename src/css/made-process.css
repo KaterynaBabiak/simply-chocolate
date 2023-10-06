@@ -1,0 +1,119 @@
+.made-process-title {
+    margin-bottom: 32px;
+}
+
+.made-process-descr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.made-process-video {
+    width: 335px;
+    height: 500px;
+    border: 1px solid #00000066;;
+    border-radius: 15px;
+
+    background: #00000066;
+}
+
+.made-process-recepie-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 16px;
+    gap: 18px;
+}
+
+.made-process-recepie {
+    width: 335px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 20px;
+}
+
+.made-process-recepie-title {
+    width: 308px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--black);
+
+    margin-bottom: 20px;
+}
+
+.recepie-descr::before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #4c4c4c;
+    border-radius: 50%;
+    border: 1px solid #eceded;
+    top: 7%;
+    left: -3%;
+    
+    transform: translate(-100%, 50%);
+}
+
+.recepie-descr {
+    max-width: 292px;
+    position: relative;
+    margin-right: -16px;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .made-process-title {
+        margin-bottom: 50px;
+    }
+
+    .made-process-video {
+        width: 614px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .made-process-recepie {
+        width: 614px;
+        padding: 32px;
+    }
+
+    .made-process-recepie-title {
+        width: 350px;
+        margin-bottom: 28px;
+    }
+
+    .recepie-descr {
+        max-width: 464px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .made-process-descr {
+        flex-wrap: nowrap;
+    }
+
+    .made-process-video {
+        width: 600px;
+    }
+
+
+
+
+    .made-process-recepie {
+        width: 516px;
+
+    }
+}

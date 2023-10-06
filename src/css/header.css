@@ -1,18 +1,21 @@
 .header {
-  padding: 20px 0;
+  display: flex;
+}
+
+.logo {
+  margin-right: 188px;
 }
 
 .nav-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  gap: 24px;
+  margin-right: 136px;
 }
 
 .nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  display: flex;
+  /*justify-content: right;*/
+  gap: 18px;
 }
 
 .nav-link:hover,
