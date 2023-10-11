@@ -1,0 +1,113 @@
+.our-products {
+    margin-bottom: 72px;
+}
+
+.our-products-title {
+    margin-bottom: 32px;
+}
+
+/*.swiper {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    margin-bottom: 32px;
+}
+
+.swiper-slide {
+    width: 335px !important;
+}*/
+
+.our-products-slide {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.our-products-item {
+    display: block;
+    width: 335px;
+    height: 364px;
+    background-color: var(--white);
+    border: 1px solid #1111111A;
+    border-radius: 15px;
+
+    padding: 32px 52px;
+}
+
+.product-img {
+    margin-bottom: 8px;
+}
+
+.our-product-name {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.our-product-descr {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111111B2;
+    margin-bottom: 18px;
+}
+
+.our-product-button {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: var(--black);
+    border: 1px solid #1111111A;
+    border-radius: 100px;
+    background-color: linear-gradient(0deg, rgba(17, 17, 17, 0.1), rgba(17, 17, 17, 0.1)),
+                linear-gradient(0deg, #FAFAFA, #FAFAFA);
+    padding: 8px 20px;
+
+    margin: 0 auto;
+    display: block;
+}
+
+.swiper-pagination-bullet {
+    width: 13px !important;
+    height: 13px !important;
+    background: #1111111A;
+}
+
+
+@media screen and (min-width: 768px) {
+    .our-products {
+        margin-bottom: 100px;
+    }
+
+    .our-products-title {
+        margin-bottom: 50px;
+    }
+
+    .our-products-item {
+        width: 270px;
+        padding: 32px 20px;
+    }
+
+    .swiper-slide {
+        width: 270px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .our-products {
+        margin-bottom: 128px;
+    }
+}

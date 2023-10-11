@@ -23,12 +23,119 @@
 }
 
 .component-item {
+    position: relative;
+    overflow: hidden;
     width: 335px;
     height: 270px;
 
     background-color: var(--white);
-    border: 1px solid #FD9222;
+    border: 1px solid var(--orange);
     border-radius: 15px;
+
+    padding: 28px;    
+
+    
+}
+
+.component-item:hover .component-card-overlay {
+    transform: translateY(0);
+
+    border: 1px solid #1111111A;
+}
+
+.component-item:hover {
+    border: none;
+}
+
+.component-item:first-child {
+    background-color: var(--orange);
+    border: transparent;
+}
+
+.component-item:nth-child(2n+3) {
+    background-color: var(--black);
+    border: transparent;
+}
+
+.componenet-img {
+    width: 224px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+.components-title {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.white {
+    color: var(--white);
+}
+
+.component-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 28px;
+    
+    border-radius: 15px;
+    background-color: var(--white);
+
+    pointer-events: none;
+
+    overflow: auto;
+    transform: translate(0, 100%);
+}
+
+.components-title.back {
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+}
+
+.component-list-btn {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.component-btn {
+    display: flex;
+    border: 1px solid var(--orange);
+    border-radius: 35px;
+    background-color: #FAFAFA;
+    padding: 6px 12px;
+
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.color-theme {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.component-back-descr {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--black);
+
+    overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -50,10 +157,31 @@
         gap: 32px;
     }
 
+    .semi {
+        order: 2;
+    }
+
+    .milk {
+        order: 3;
+    }
+
+    .nuts {
+        order: 4;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .component-item {
         width: 264px;
     }
+
+    .componenet-img {
+        width: 206px;
+        padding: 16px;
+    }
+
+    .component-card-overlay {
+        padding: 20px;
+    }
+
 }
