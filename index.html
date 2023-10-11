@@ -11,8 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/simply-chocolate/assets/index-d99625db.js"></script>
-    <link rel="stylesheet" href="/simply-chocolate/assets/index-2646a99a.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+
+    <script type="module" crossorigin src="/simply-chocolate/assets/index-854dd6c6.js"></script>
+    <link rel="stylesheet" href="/simply-chocolate/assets/index-9c43461d.css">
   </head>
 
   <header>
@@ -78,37 +83,317 @@
         <p class="components-descr">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.</p>
         <ul class="components-list">
             <li class="component-item chocolate">
-                <div class="component-choco">
-                    <img class="componenet-img" src="../img/components/" alt="milk chocolate" />
-                    <h4 class="components-title">milk chocolate</h4>
+              
+                    <img class="componenet-img"
+                    srcset="
+                    ../img/components/chocolate.webp 1x  ,
+                    ../img/components/chocolate@2x.webp 2x
+                    "
+                    src="../img/components/chocolate.webp"
+                    alt="chocolate"
+                    />
+                    <h4 class="components-title white">milk chocolate</h4>
+                
+                <div class="component-card-overlay">
+                    <h4 class="components-title back">Milk chocolate</h4>
+                    <ul class="component-list-btn">
+                        <li class="component-item-btn ">
+                            <button class="component-btn color-theme" type="button">chocolate</button>
+                        </li>
+                        <li class="component-item-btn">
+                            <button class="component-btn" type="button">the benefits</button>
+                        </li>
+                    </ul>
+                    <p class="component-back-descr">
+                        Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all milk chocolate is sold in the United States and Europe.
+                    </p>
                 </div>
             </li>
             <li class="component-item milk">
-                <div>
-                    <img src="../img/components/" alt="milk" />
+    
+                    <img class="componenet-img"
+                    srcset="
+                    ../img/components/milk.webp 1x,
+                    ../img/components/milk@2x.webp 2x
+                    "
+                    src="../img/components/milk.webp"
+                    alt="milk"
+                  />
                     <h4 class="components-title">milk</h4>
-                </div>
+                
+                    <div class="component-card-overlay">
+                        <h4 class="components-title back">milk</h4>
+                        <ul class="component-list-btn">
+                            <li class="component-item-btn ">
+                                <button class="component-btn color-theme" type="button">milk</button>
+                            </li>
+                            <li class="component-item-btn">
+                                <button class="component-btn" type="button">the benefits</button>
+                            </li>
+                        </ul>
+                        <p class="component-back-descr">
+                            Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system.
+                        </p>
+                    </div>
             </li>
             <li class="component-item nuts">
-                <div>
-                    <img src="../img/components/" alt="nuts" />
-                    <h4 class="components-title">nuts</h4>
-                </div>
+                
+                    <img class="componenet-img"
+                    srcset="
+                    ../img/components/nuts.webp 1x,
+                    ../img/components/nuts@2x.webp 2x
+                    "
+                    src="../img/components/nuts.webp"
+                    alt="nuts"
+                  />
+                    <h4 class="components-title white">nuts</h4>                
+                    <div class="component-card-overlay">
+                        <h4 class="components-title back">nuts</h4>
+                        <ul class="component-list-btn">
+                            <li class="component-item-btn ">
+                                <button class="component-btn color-theme" type="button">nuts</button>
+                            </li>
+                            <li class="component-item-btn">
+                                <button class="component-btn" type="button">the benefits</button>
+                            </li>
+                        </ul>
+                        <p class="component-back-descr">
+                            Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their own.
+                        </p>
+                    </div>
             </li>
             <li class="component-item semi">
-                <div>
-                    <img src="../img/components/" alt="semi - sweet chocolate" />
+                
+                    <img class="componenet-img"
+                    srcset="
+                    ../img/components/coffee.webp 1x,
+                    ../img/components/coffee@2x.webp 2x
+                    "
+                    src="../img/components/coffee.webp"
+                    alt="coffee"
+                    />
                     <h4 class="components-title">semi - sweet chocolate</h4>
-                </div>
+                    <div class="component-card-overlay">
+                        <h4 class="components-title back">semi - sweet chocolate</h4>
+                        <ul class="component-list-btn">
+                            <li class="component-item-btn ">
+                                <button class="component-btn color-theme" type="button">sweet chocolate</button>
+                            </li>
+                            <li class="component-item-btn">
+                                <button class="component-btn" type="button">the benefits</button>
+                            </li>
+                        </ul>
+                        <p class="component-back-descr">
+                            Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter.
+                        </p>
+                    </div>
+                
             </li>
         </ul>
     </div>
 </section>
+     <!-- <section class="components">
+    <div class="components-container">
+      <h2 class="components-title">
+        IT ALL ADDS UP TO ONE EXCEPTIONAL
+        <span class="components-title-color">TASTE </span>SENSATION
+      </h2>
+      <p class="components-descr">
+        At Simply Chocolate, we believe that the secret to exceptional chocolate
+        is in the details. From the sourcing of the finest ingredients to the
+        careful crafting of each individual piece, every step of our process adds
+        up to one exceptional taste sensation.
+      </p>
+      <ul class="components-list list">
+        <li class="components-item">
+          <div class="components-modal-images">
+            <img
+              srcset="
+              ../img/components/chocolate.webp 1x  ,
+              ../img/components/chocolate@2x.webp 2x
+              "
+              src="../img/components/chocolate.webp"
+              alt="chocolate"
+            />
+          </div>
+          <div class="components-card-modal">
+            <h3 class="components-modal-subtitle">MILK CHOCOLATE</h3>
+            <ul class="modal-btns-list">
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-color-btn btn components-btns"
+                >
+                  chocolate
+                </button>
+              </li>
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-white-btn btn components-btns"
+                >
+                  the benefits
+                </button>
+              </li>
+            </ul>
+            <p class="components-modal-text">
+              Milk chocolate is a solid chocolate confectionery containing cocoa,
+              sugar and milk. It is the most consumed type of chocolate. Chocolate
+              was originally sold and consumed as a beverage in pre-Columbian
+              times. Although four-fifths of all milk chocolate ... <span class="components-modal-text-hidden">is sold in the
+              United States and Europe, increasingly large amounts are consumed in
+              China and Latin America.</span>
+            </p>
+          </div>
+          <h3 class="components-subtitle white-subtitle">MILK CHOCOLATE</h3>
+        </li>
+        <li class="components-item">
+          <div class="components-modal-images">
+            <img
+              srcset="
+                ./images/Components/milk.webp    1x,
+                ./images/Components/milk@2x.webp 2x
+              "
+              src="./images/Components/milk.webp"
+              alt="milk"
+            />
+          </div>
+          <div class="components-card-modal">
+            <h3 class="components-modal-subtitle">MILK</h3>
+            <ul class="modal-btns-list">
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-color-btn btn components-btns"
+                >
+                  milk
+                </button>
+              </li>
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-white-btn btn components-btns"
+                >
+                  the benefits
+                </button>
+              </li>
+            </ul>
+            <p class="components-modal-text">
+              Milk is a white liquid food produced by the mammary glands of
+              mammals. It is the primary source of nutrition for young mammals
+              (including breastfed human infants) before they are able to digest
+              solid food.Early-lactation milk, which is called colostrum, contains ...   <span class="components-modal-text-hidden">
+              antibodies that strengthen the immune system, and thus reduces the
+              risk of many diseases. Milk contains risk of many diseases. Milk contains... many nutrients, including
+                protein and lactose. risk of many diseases. Milk contains...
+              </span>
+            </p>
+          </div>
+          <h3 class="components-subtitle black-subtitle">MILK</h3>
+        </li>
+        <li class="components-item">
+          <div class="components-modal-images">
+            <img
+              srcset="
+                ./images/Components/nuts.webp    1x,
+                ./images/Components/nuts@2x.webp 2x
+              "
+              src="./images/Components/nuts.webp"
+              alt="nuts"
+            />
+          </div>
+          <div class="components-card-modal">
+            <h3 class="components-modal-subtitle">NUTS</h3>
+            <ul class="modal-btns-list">
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-color-btn btn components-btns"
+                >
+                  nuts
+                </button>
+              </li>
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-white-btn btn components-btns"
+                >
+                  the benefits
+                </button>
+              </li>
+            </ul>
+            <p class="components-modal-text">
+              Almonds, pistachios, and walnuts are some types of nuts that contain
+              healthy nutrients. When eaten as part of a nutrient-dense diet,
+              these 9 nuts may offer benefits such as reducing your risk of heart
+              disease. They're a good source of fiber, healthy fats, and plant ... <span class="components-modal-text-hidden">
+              protein. Plus, they're... great on their own, paired with fruit,
+                or added to dishes like salads, desserts, and grains. protein.
+                Plus, they're
+              </span>
+            </p>
+          </div>
+          <h3 class="components-subtitle white-subtitle">NUTS</h3>
+        </li>
+        <li class="components-item">
+          <div class="components-modal-images">
+            <img
+              srcset="
+                ./images/Components/coffee.webp    1x,
+                ./images/Components/coffee@2x.webp 2x
+              "
+              src="./images/Components/coffee.webp"
+              alt="semi-chocolate"
+            />
+          </div>
+          <div class="components-card-modal">
+            <h3 class="components-modal-subtitle">SEMI - SWEET CHOCOLATE</h3>
+            <ul class="modal-btns-list">
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-color-btn btn components-btns"
+                >
+                  sweet chocolate
+                </button>
+              </li>
+              <li class="modal-btns-item">
+                <button
+                  type="button"
+                  class="components-modal-white-btn btn components-btns"
+                >
+                  the benefits
+                </button>
+              </li>
+            </ul>
+            <p class="components-modal-text last-card">
+              Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of
+              the best ways to gain an understanding of this type of chocolate is
+              to compare it to a different type of chocolate. Semisweet is darker
+              than milk ... <span class="components-modal-text-hidden">chocolate In a taste comparison, it has a slightly bitter
+              taste whereas milk chocolate is sweeter and more mellow.</span
+              >
+            </p>
+          </div>
+          <h3 class="components-subtitle black-subtitle">
+            SEMI - SWEET CHOCOLATE
+          </h3>
+        </li>
+      </ul>
+    </div>
+  </section> -->
       <section class="made-process section">
     <div class="container">
         <h2 class="made-process-title">how it`s <span class="top-accent">made?</span></h2>
         <ul class="made-process-descr">
-            <li class="made-process-video"></li>
+            <li class="made-process-video">
+                <picture>
+                    <source srcset="../img/made/made-desktop@1x.jpg 1x, ../img/made/made-desktop@2x.jpg 2x" media="(min-width:1200px)" />
+                    <source srcset="../img/made/made-tablet@1x.jpg 1x, ../img/made/made-tablet@2x.jpg 2x" media="(min-width:768px)" />
+                    <source srcset="../img/made/made-mobile@1x.jpg 1x, ../img/made/made-mobile@2x.jpg 2x" media="(min-width:320px)" />
+                    <img class="made-process-img" src="../img/made/made-desktop@2x.jpg" alt="video made process" />               
+                </picture>
+            </li>
             <li class="made-process-recepie">
                 <h5 class="made-process-recepie-title">Try  our chocolates today and discover the perfect balance of flavor</h5>
                 <ul class="made-process-recepie-text"> 
@@ -124,26 +409,244 @@
 </section>
       <section class="our-products section">
     <div class="container">
-        <h2>our <span class="top-accent">products</span></h2>
-        <ul>
-            <li>
-                <div>
-                    
+        <h2 class="our-products-title">our <span class="top-accent">products</span></h2>
+        <div class="swiper our-products-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/orange@1x.jpg 1x, ../img/products/orange@2x.jpg 2x"
+                    src="../img/products/orange 1x.jpg"
+                    alt="orange" />
+                    <h5 class="our-product-name">orange</h5>
+                    <p class="our-product-descr">Dark chocolate</p>
+                    <button class="our-product-button" type="button">45 UAH</button>
                 </div>
-            </li>
-        </ul>
+              </div>
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/apple-cranberry@1x.jpg 1x, ../img/products/apple-cranberry@2x.jpg 2x"
+                    src="../img/products/apple-cranberry@1x.jpg"
+                    alt="apple-cranberry" />
+                    <h5 class="our-product-name">APPLE&CRANBERRY</h5>
+                    <p class="our-product-descr">Milk chocolate</p>
+                    <button class="our-product-button" type="button">50 UAH</button>
+                </div>
+              </div>
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/lime-seasalt@1x.jpg 1x, ../img/products/lime-seasalt@2x.jpg 2x"
+                    src="../img/products/lime-seasalt@1x.jpg"
+                    alt="lime-seasalt" />
+                    <h5 class="our-product-name">lime&sea salt</h5>
+                    <p class="our-product-descr">Dark chocolate</p>
+                    <button class="our-product-button" type="button">66 UAH</button>
+                </div>
+              </div>
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/pineapple@1x.jpg 1x, ../img/products/pineapple@2x.jpg 2x"
+                    src="../img/products/pineapple@1x.jpg"
+                    alt="pineapple" />
+                    <h5 class="our-product-name">pineapple</h5>
+                    <p class="our-product-descr">Dark chocolate</p>
+                    <button class="our-product-button" type="button">54 UAH</button>
+                </div>
+              </div>
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/classic@1x.jpg 1x, ../img/products/classic@2x.jpg 2x"
+                    src="../img/products/classic@1x.jpg"
+                    alt="classic" />
+                    <h5 class="our-product-name">Classic</h5>
+                    <p class="our-product-descr">Milk chocolate</p>
+                    <button class="our-product-button" type="button">45 UAH</button>
+                </div>
+              </div>
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/honey@1x.jpg 1x, ../img/products/honey@2x.jpg 2x"
+                    src="../img/products/honey@1x.jpg"
+                    alt="honey" />
+                    <h5 class="our-product-name">honey</h5>
+                    <p class="our-product-descr">Milk chocolate</p>
+                    <button class="our-product-button" type="button">50 UAH</button>
+                </div>
+              </div>
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/roasted-fruit@1x.jpg 1x, ../img/products/roasted-fruit@2x.jpg 2x"
+                    src="../img/products/roasted-fruit@1x.jpg"
+                    alt="roasted-fruit" />
+                    <h5 class="our-product-name">Roasted fruits</h5>
+                    <p class="our-product-descr">Dark chocolate</p>
+                    <button class="our-product-button" type="button">66 UAH</button>
+                </div>
+              </div>
+              <div class="swiper-slide our-products-slide">
+                <div class="our-products-item">
+                    <img class="product-img" 
+                    srcset="../img/products/classic-w@1x.jpg 1x, ../img/products/classic-w@2x.jpg 2x"
+                    src="../img/products/classic-w@1x.jpg"
+                    alt="classic-w" />
+                    <h5 class="our-product-name">Classic</h5>
+                    <p class="our-product-descr">White chocolate</p>
+                    <button class="our-product-button" type="button">54 UAH</button>
+                </div>
+              </div>
+            </div>
+    
+            <!--
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4" aria-current="true"></span>
+                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span>
+                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span>
+                <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span>
+            </div>
+            -->
+    
+            <div class="swiper-pagination"></div>
+    
+            
+          
+          </div>
+        
+    
+
+
     </div>
 </section>
       <section class="top-sellers section">
     <div class="container">
-        <h2><span class="top-accent">top</span> sellers</h2>
+        <h2 class="top-sellers-title"><span class="top-accent">top</span> sellers</h2>
+        <ul class="top-seller-list">
+            <li class="top-seller-item">
+                <picture>
+                    <source srcset="../img/topsellers/topseller-one-mobile@1x.jpg 1x, ../img/topsellers/topseller-one-mobile@2x.jpg 2x" media="(min-width:320px)" />
+                    <source srcset="../img/topsellers/topseller-one-tablet@1x.jpg 1x, ../img/topsellers/topseller-one-tablet@2x.jpg 2x" media="(min-width:768px)" />
+                    <source srcset="../img/topsellers/topseller-one-desktop@1x.jpg 1x, ../img/topsellers/topseller-one-desktop@2x.jpg 2x" media="(min-width:1200px)" />
+                    <img class="top-seller-img" src="../img/topsellers/topseller-one-desktop@1x.jpg" alt="dark chocolate" />                
+                </picture>                
+                <p class="top-seller-descr-mob">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+            </li>
+            <li class="top-seller-item">
+                <picture>
+                    <source srcset="../img/topsellers/topseller-two-mobile@1x.jpg 1x, ../img/topsellers/topseller-two-mobile@2x.jpg 2x" media="(min-width:320px)" />
+                    <source srcset="../img/topsellers/topseller-two-tablet@1x.jpg 1x, ../img/topsellers/topseller-two-tablet@2x.jpg 2x" media="(min-width:768px)" />
+                    <source srcset="../img/topsellers/topseller-two-desktop@1x.jpg 1x, ../img/topsellers/topseller-two-desktop@2x.jpg 2x" media="(min-width:1200px)" />
+                    <img class="top-seller-img" src="../img/topsellers/topseller-two-desktop@1x.jpg" alt="milk chocolate" />               
+                </picture>
+            </li>
+            <li class="top-seller-item choco-bar">
+                <picture>
+                    <source srcset="../img/topsellers/topseller-three-desktop@1x.jpg 1x, ../img/topsellers/topseller-three-desktop@2x.jpg 2x" media="(min-width:1200px)" />
+                    <img class="top-seller-img" src="../img/topsellers/topseller-three-desktop@1x.jpg" alt="chocolate bar" />              
+                </picture>
+            </li>
+        </ul>
+        <ul class="top-sellers-info">
+            <p class="top-seller-descr">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+            <button class="top-seller-button" type="button">Buy now</button>
+        </ul>
     </div>
 </section>
       <section class="reviews section">
     <div class="container">
-        <h2><span class="top-accent">chocolate</span> is loved</h2>
+        <h2 class="reviews-title"><span class="top-accent">chocolate</span> is loved</h2>
+        <div class="swiper review-swiper" space-between="16" pagination="true" pagination-clickable="true">
+            <div class="swiper-wrapper wrapper-reviews">
+                <div class="swiper-slide">
+                    <img class="reviews-img" 
+                    srcset="../img/reviews/victoria@1x.jpg 1x, ../img/reviews/victoria@1x.jpg 2x" 
+                    src="../img/reviews/victoria@2x.jpg" 
+                    alt="Victoria Dobrzhanska" />
+                    <h5 class="reviews-person">Victoria Dobrzhanska</h5>
+                    <p class="reviews-text">I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="reviews-img" 
+                    srcset="../img/reviews/nazar@1x.jpg 1x, ../img/reviews/nazar@1x.jpg 2x" 
+                    src="../img/reviews/nazar@2x.jpg" 
+                    alt="Nazar Babenko" />
+                    <h5 class="reviews-person">Nazar Babenko</h5>
+                    <p class="reviews-text">This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good.</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="reviews-img" 
+                    srcset="../img/reviews/olena@1x.jpg 1x, ../img/reviews/olena@1x.jpg 2x" 
+                    src="../img/reviews/olena@2x.jpg" 
+                    alt="Olena Kampusch" />
+                    <h5 class="reviews-person">Olena Kampusch</h5>
+                    <p class="reviews-text"> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy.</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="reviews-img" 
+                    srcset="../img/reviews/natalia@1x.jpg 1x, ../img/reviews/natalia@1x.jpg 2x" 
+                    src="../img/reviews/natalia@2x.jpg" 
+                    alt="Natalia Sus" />
+                    <h5 class="reviews-person">Natalia Sus</h5>
+                    <p class="reviews-text">The chocolate assortment was delicious. Both dark and milk chocolate pieces were smooth and just right on the sweetness level. </p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="reviews-img" 
+                    srcset="../img/reviews/danilo@1x.jpg 1x, ../img/reviews/danilo@1x.jpg 2x" 
+                    src="../img/reviews/danilo@2x.jpg" 
+                    alt="Danilo Nottingham" />
+                    <h5 class="reviews-person">Danilo Nottingham</h5>
+                    <p class="reviews-text">This is delicious. It so rich and flavorful you don’t need to use as many. I love topping an apple with almond butter and these chips for a snack.</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="reviews-img" 
+                    srcset="../img/reviews/irina@1x.jpg 1x, ../img/reviews/irina@1x.jpg 2x" 
+                    src="../img/reviews/irina@2x.jpg" 
+                    alt="Irina Tydnyuk" />
+                    <h5 class="reviews-person">Irina Tydnyuk</h5>
+                    <p class="reviews-text">This is simply the best chocolate around, and I'm just thrilled to support a local company! Best local chocolate - world class :)</p>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+    
+        </div>
+
+        <button class="reviews-button" type="button">Leave a review</button>
     </div>
 </section>
+      <!--   <swiper-container class="mySwiper review-list" slides-per-view="3">
+    <swiper-slide class="review-slide">
+        <img class="reviews-img" 
+                    srcset="../img/reviews/victoria@1x.jpg 1x, ../img/reviews/victoria@1x.jpg 2x" 
+                    src="../img/reviews/victoria@2x.jpg" 
+                    alt="Victoria Dobrzhanska" />
+                    <h5 class="reviews-person">Victoria Dobrzhanska</h5>
+                    <p class="reviews-text">I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.</p>
+    </swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+    <swiper-slide>Slide 4</swiper-slide>
+    <swiper-slide>Slide 5</swiper-slide>
+    <swiper-slide>Slide 6</swiper-slide>
+    <swiper-slide>Slide 7</swiper-slide>
+    <swiper-slide>Slide 8</swiper-slide>
+    <swiper-slide>Slide 9</swiper-slide>
+  </swiper-container>
+
+
+
+ 
+
+ -->
       <section>
     <div class="container">
         <p>subscribe</p>
@@ -152,6 +655,10 @@
     </main>
 
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+
+
 
   </body>
   <footer>
