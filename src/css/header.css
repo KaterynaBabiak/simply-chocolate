@@ -6,19 +6,44 @@
   margin-right: 188px;
 }
 
-.nav-list {
-  display: flex;
-  gap: 24px;
-  margin-right: 136px;
+.header .nav-list {
+  display: none;
 }
 
-.nav-link {
-  display: flex;
-  /*justify-content: right;*/
-  gap: 18px;
+.nav-list {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  /*text-align: left;*/
+}
+
+.header .nav-link {
+  display: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #747bff;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .header .nav-list {
+    display: flex;
+    gap: 24px;
+    margin-right: 136px;
+  }
+
+  .header .nav-list .nav-item:hover {
+    color: var(--orange);
+}
+
+  .header .nav-link {
+    display: flex;
+    /*justify-content: right;*/
+    gap: 18px;
+  }
+
 }

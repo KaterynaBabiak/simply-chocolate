@@ -32,19 +32,16 @@
     border: 1px solid var(--orange);
     border-radius: 15px;
 
-    padding: 28px;    
+    padding: 28px;     
+}
 
-    
+.component-item:hover,
+.component-item:focus {
+    border: 1px solid #1111111A;
 }
 
 .component-item:hover .component-card-overlay {
     transform: translateY(0);
-
-    border: 1px solid #1111111A;
-}
-
-.component-item:hover {
-    border: none;
 }
 
 .component-item:first-child {

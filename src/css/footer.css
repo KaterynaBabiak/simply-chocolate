@@ -1,0 +1,130 @@
+.footer {
+    background-color: var(--dark-violet);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-up {
+    margin-bottom: 32px;    
+}
+
+.footer-title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--white);
+
+    min-width: 280px;
+    max-width: 300px;
+
+    margin-bottom: 32px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us-title {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: var(--white);
+
+    margin-bottom: 14px;
+}
+
+.contact-us-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer .contact-us {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+
+    color: var(--white);
+}
+
+.footer .contact-us:hover {
+    color: var(--orange);
+}
+
+.social-media-list {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-item {
+    color: var(--white);
+}
+
+.social-media-item:hover {
+    color: var(--orange);
+}
+
+.footer-line {
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF1A;
+    margin-bottom: 32px;
+}
+
+.footer .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    color: #FFFFFF;
+}
+
+.footer .nav-list .nav-item:hover {
+    color: var(--orange);
+}
+
+@media screen and (min-width: 768px) {
+    .footer-up {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .footer-title {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-bottom: 0;
+    }
+
+    .contact-info {
+        gap: 50px;
+    }
+
+    .footer .nav-list {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .footer-line {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer-up {
+        margin-bottom: 58px;
+    }
+
+    .contact-info {
+        gap: 63px;
+    }
+}
