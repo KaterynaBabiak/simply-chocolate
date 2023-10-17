@@ -1,49 +1,100 @@
 .header {
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.header-main {
   display: flex;
+  justify-content: space-between;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .logo {
-  margin-right: 188px;
-}
-
-.header .nav-list {
-  display: none;
-}
-
-.nav-list {
+  display: inline-flex;
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: -0.02em;
-  /*text-align: left;*/
+  font-style: italic;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  align-items: center;
 }
 
-.header .nav-link {
+.logo::after {
+  content: "";
+  display: inline-flex;
+  flex-direction: row;
+  width: 21px;
+  height: 24px;
+  background-image: url('../img/chocolate.svg');
+  margin-left: 4px;
+}
+
+.header-navigation {
   display: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+@media screen and (min-width: 768px) {
+  .header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
 }
 
-
 @media screen and (min-width: 1200px) {
-  .header .nav-list {
+  .header {
+    margin-bottom: 32px;
+  }
+
+  .logo {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+    gap: 136px;
+  }
+
+  .nav-list {
     display: flex;
     gap: 24px;
-    margin-right: 136px;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.02em;
   }
 
   .header .nav-list .nav-item:hover {
     color: var(--orange);
 }
 
-  .header .nav-link {
+.header .nav-social {
     display: flex;
-    /*justify-content: right;*/
     gap: 18px;
+  }
+
+  .social-icon {
+    fill: var(--black);
+  }
+
+  .social-icon:hover {
+    fill: var(--orange);
   }
 
 }

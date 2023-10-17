@@ -1,0 +1,182 @@
+.hero {
+    margin-bottom: 72px;
+}
+
+.hero-main {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.1),
+        rgba(46, 47, 66, 0.1)), 
+        url('../img/hero/hero-mobile@2x.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /*max-width: 335px;
+        height: 620px;*/
+        padding: 395px 20px 20px;
+        border-radius: 30px;
+
+}
+
+.hero-subtitle {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: var(--white);
+
+    margin-bottom: 32px;
+}
+
+.hero-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.hero-buy-now-btn {
+    border: none;
+    border-radius: 100px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+
+    padding: 12px 28px;  
+}
+
+.hero-buy-now-btn:hover {
+    background-color: #FCF1E0;
+    ;
+    color: var(--orange);
+}
+
+.hero-made-process-btn {
+    border: 1px solid var(--white);
+    border-radius: 100px;
+    background-color: transparent;
+    color: var(--white);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+
+    padding: 12px 28px;
+}
+
+.hero-made-process-btn:hover {
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}
+
+.scroll-btn {
+    display: flex;
+    width: 108px;
+    gap: 12px;
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.03em;
+
+    padding: 0;
+}
+
+.scroll-btn-list {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.scroll-btn:hover {
+    color: var(--orange);
+}
+
+.scroll-btn:hover .hero-icon-chevron {
+    fill: var(--white);
+    background-color: var(--orange);
+}
+
+.hero-icon-chevron {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: var(--white);
+    fill: var(--orange);
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        margin-bottom: 50px;
+    }
+
+    .hero-main {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.1),
+            rgba(46, 47, 66, 0.1)), 
+            url('../img/hero/hero-tablet@2x.jpg');
+            padding: 670px 40px 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 28px;
+        line-height: 34px;
+        max-width: 484px;
+    }
+
+    .hero-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-buy-now-btn { 
+        padding: 14px 40px;  
+    }
+
+    .scroll-btn {
+        width: 130px;
+        font-size: 14px;
+        line-height: 18px;
+        gap: 14px;
+    }
+
+    .scroll-btn-list {
+        gap: 14px
+    }
+
+    
+    .hero-icon-chevron {
+        width: 38px;
+        height: 38px;
+        padding: 8px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        margin-bottom: 72px;
+    }
+
+    .hero-main {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.1),
+            rgba(46, 47, 66, 0.1)), 
+            url('../img/hero/hero@2x.jpg');
+            padding: 380px 40px 40px;
+    }
+}

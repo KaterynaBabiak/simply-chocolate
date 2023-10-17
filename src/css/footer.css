@@ -90,6 +90,14 @@
     color: var(--orange);
 }
 
+.footer .social-icon {
+    fill: var(--white);
+}
+
+.footer .social-icon:hover {
+    fill: var(--orange);
+}
+
 @media screen and (min-width: 768px) {
     .footer-up {
         display: flex;

@@ -84,7 +84,7 @@
 
 .our-products .swiper-pagination {
     position: relative;
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
 }
 
 .our-products .swiper-pagination-bullet {
