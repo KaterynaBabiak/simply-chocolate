@@ -4,3 +4,4 @@ import './js/scroll.js';
 import './js/modal-buyNow.js';
 import './js/modal-reviews.js';
 import './js/modal-subscribe.js';
+import './js/modal-mobile-menu.js';
