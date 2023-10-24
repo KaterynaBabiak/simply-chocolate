@@ -25,6 +25,7 @@
 .component-item {
     position: relative;
     overflow: hidden;
+    display: block;
     width: 335px;
     height: 270px;
 
@@ -37,21 +38,27 @@
 
 .component-item:hover,
 .component-item:focus {
-    border: 1px solid #1111111A;
+    border: transparent; 
 }
 
-.component-item:hover .component-card-overlay {
+.component-item:hover .component-card-overlay,
+.component-item:focus .component-card-overlay {
+    /*border: transparent;*/
     transform: translateY(0);
 }
 
 .component-item:first-child {
     background-color: var(--orange);
-    border: transparent;
+    border: none;
 }
 
 .component-item:nth-child(2n+3) {
     background-color: var(--black);
-    border: transparent;
+    border: none;
+}
+
+.component-item:hover:nth-child(2n+3) {
+    border: 1px solid white;
 }
 
 .componenet-img {
@@ -80,17 +87,24 @@
     position: absolute;
     top: 0;
     left: 0;
+    margin: 0;
     width: 100%;
     height: 100%;
     padding: 28px;
     
     border-radius: 15px;
     background-color: var(--white);
+    transform: translateY(100%);
 
     pointer-events: none;
 
-    overflow: auto;
+    overflow: hidden;
     transform: translate(0, 100%);
+}
+
+.component-card-overlay:hover {
+    border: none;
+
 }
 
 .components-title.back {
