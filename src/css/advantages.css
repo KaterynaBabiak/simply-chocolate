@@ -37,19 +37,19 @@
 }
 
 .advantages-item.icon-taste::before {
-    background-image: url(./img/taste.svg);
+    background-image: url(../img/taste.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .advantages-item.icon-price::before {
-    background-image: url(./img/price.svg);
+    background-image: url(../img/price.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .advantages-item.icon-production::before {
-    background-image: url(./img/production.svg);
+    background-image: url(../img/production.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
